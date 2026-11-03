@@ -44,9 +44,8 @@ Swap the image for whatever your repository builds with.
 
 ## Make it yours
 
-1. Replace `acme/api-service` in `factory.yaml` and
-   `automations/issue-labeled/automation.md` with a repository your Warp
-   team's GitHub installation can reach.
+1. This copy already points at `fkoh111/warp-quickstart-api-service`.
+   Replace it again only if you fork this factory for another repository.
 2. Adjust `alias`; it becomes the factory's @-mention handle.
 3. Swap the runner's `dockerImage` for your stack, and optionally change
    `agentDefaults.model` (any Warp Agent model ID).
